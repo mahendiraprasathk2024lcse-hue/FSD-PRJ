@@ -1,0 +1,25 @@
+{
+  "name": "college-event-management-portal",
+  "version": "1.0.0",
+  "description": "College Event Management Portal - MERN Stack",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "seed": "cd server && node seed.js"
+  },
+  "keywords": [
+    "mern",
+    "event-management",
+    "college",
+    "react",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
