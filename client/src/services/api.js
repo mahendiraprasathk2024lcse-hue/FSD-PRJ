@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api';
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 // Set token in headers
 const setAuthToken = (token) => {
@@ -36,3 +36,4 @@ export const getAllStudents = () => axios.get(`${API_URL}/admin/students`);
 export const getDashboardStats = () => axios.get(`${API_URL}/admin/stats`);
 
 export { setAuthToken };
+
